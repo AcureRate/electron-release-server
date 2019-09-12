@@ -182,7 +182,7 @@ module.exports = {
               function(prevNotes, newVersion) {
 
                 newVersion.assets = _.filter(newVersion.assets, function(asset) {
-                  return asset.filetype === '.zip';
+                  return asset.filetype === '.zip' || asset.filetype === '.exe';
                 });
 
                 // If one of the assets for this verison apply to our desired

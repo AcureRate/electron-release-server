@@ -16,4 +16,7 @@ module.exports.session = {
   // XXX: Enable this if you are using postgres as your database
   // If so, be sure to run the sql command detailed here: https://github.com/ravitej91/sails-pg-session
   // adapter: 'sails-pg-session'
+  //secret: 'm9qxmeYudf0yqn8qZjRV08yXjeZQThi3jTrnFJuZNFSvNwnwWo0h29Gia376dDo',
+  adapter: 'connect-mongo',
+  url: 'mongodb://localhost:27017/electron_release_server_session'
 };
