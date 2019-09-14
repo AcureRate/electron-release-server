@@ -225,7 +225,7 @@ module.exports = {
               url: url.resolve(
                 sails.config.appUrl,
                 '/download/' + latestVersion.name + '/' +
-                latestVersion.assets[0].platform + '?filetype=zip'
+                latestVersion.assets[0].platform + '?filetype=' + latestVersion.assets[0].filetype.replace('.','')
               ),
               name: latestVersion.name,
               notes: releaseNotes,
