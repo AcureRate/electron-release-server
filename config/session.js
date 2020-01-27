@@ -18,5 +18,5 @@ module.exports.session = {
   // adapter: 'sails-pg-session'
   secret: 'm9qxmeYudf0yqn8qZjRV08yXjeZQThi3jTrnFJuZNFSvNwnwWo0h29Gia376dDo',
   adapter: 'connect-mongo',
-  url: 'mongodb://localhost:27017/electron_release_server_session'
+  url: 'mongodb://10.1.1.30:27017/electron_release_server_session'
 };
