@@ -62,7 +62,7 @@ module.exports = {
   connections: {
     postgresql: {
       adapter: 'sails-mongo',
-      host: '10.1.1.30',
+      host: '10.1.1.31',
       user: '',
       password: '',
       database: 'electron_release_server'
@@ -74,7 +74,7 @@ module.exports = {
     // Generate using: https://www.grc.com/passwords.htm
     secret: 'fdatuioq!fdsBBva',
     database: 'electron_release_server_session',
-    host: '10.1.1.30',
+    host: '10.1.1.31',
     user: '',
     password: '',
     port: 27017
