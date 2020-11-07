@@ -18,5 +18,5 @@ module.exports.session = {
   // adapter: 'sails-pg-session'
   secret: 'm9qxmeYudf0yqn8qZjRV08yXjeZQThi3jTrnFJuZNFSvNwnwWo0h29Gia376dDo',
   adapter: 'connect-mongo',
-  url: 'mongodb://acurerate_admin:goAcurerateMongodb1234@10.1.1.31:27017/electron_release_server_session'
+  url: 'mongodb://acurerate_admin:goAcurerateMongodb1234@10.1.1.31:27017/electron_release_server_session?authSource=admin'
 };
