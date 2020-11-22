@@ -60,25 +60,25 @@ module.exports = {
   },
 
   connections: {
-    postgresql: {
-      adapter: 'sails-mongo',
-      host: '10.1.1.114',
-      user: '',
-      password: '',
-      database: 'electron_release_server'
-    }
+    // mongodb: {
+      // adapter: 'sails-mongo',
+      // url: "mongodb://acurerate_admin:goAcurerateMongodb1234@ohio-data-repo.acurerate.com:27017/electron_release_server_session?authSource=admin"
+      // host: 'ohio-data-repo.acurerate.com',
+      // user: 'acurerate_admin',
+      // password: 'goAcurerateMongodb1234',
+    // }
   },
 
   session: {
     // Recommended: 63 random alpha-numeric characters for secret
     // Generate using: https://www.grc.com/passwords.htm
-    secret: 'fdatuioq!fdsBBva',
-    database: 'electron_release_server_session',
+    // secret: 'fdatuioq!fdsBBva',
+    // database: 'electron_release_server_session',
     // host: '10.1.1.114',
     // user: 'acurerate_admin',
     // password: 'goAcurerateMongodb1234',
-    port: 27017,
-    url: "mongodb://acurerate_admin:goAcurerateMongodb1234@ohio-data-repo.acurerate.com:27017/electron_release_server_session?authSource=admin"
+    // port: 27017,
+    // url: "mongodb://acurerate_admin:goAcurerateMongodb1234@ohio-data-repo.acurerate.com:27017/electron_release_server_session?authSource=admin"
   },
 
   files: {
@@ -103,6 +103,10 @@ module.exports = {
      key: require('fs').readFileSync('/home/ubuntu/acurerate/outpost/ssl/domains/key.pem'),
      cert: require('fs').readFileSync('/home/ubuntu/acurerate/outpost/ssl/domains/key.pub'),
      phrase: require('fs').readFileSync('/home/ubuntu/acurerate/outpost/ssl/domains/key.phrase')
+     //for local dev (Maman)
+     // key: require('fs').readFileSync("/Users/matan-co/workspace/external-api-nodejs/ssl/domains/localhost.referral-ai.com/key.pem"),
+     // cert: require('fs').readFileSync('/Users/matan-co/workspace/external-api-nodejs/ssl/domains/localhost.referral-ai.com/server.crt'),
+     // phrase: require('fs').readFileSync('/Users/matan-co/workspace/external-api-nodejs/ssl/domains/localhost.referral-ai.com/passphrase')
    },
 
   /***************************************************************************

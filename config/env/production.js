@@ -18,7 +18,7 @@ module.exports = {
    ***************************************************************************/
 
   models: {
-    connection: 'postgresql',
+    connection: 'mongodbServer',
     migrate: 'safe'
   },
 

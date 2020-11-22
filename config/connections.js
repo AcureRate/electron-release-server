@@ -56,14 +56,15 @@ module.exports.connections = {
   * Run: npm install sails-mongo                                             *
   *                                                                          *
   ***************************************************************************/
-  // mongodbServer: {
-  //   adapter: 'sails-mongo',
-  //   host: 'localhost',
-  //   port: 27017,
-  //   // user: 'username',
-  //   // password: 'password',
-  //   database: 'sailbot_ui'
-  // },
+  mongodbServer: {
+      adapter: 'sails-mongo',
+      url: "mongodb://acurerate_admin:goAcurerateMongodb1234@ohio-data-repo.acurerate.com:27017/electron_release_server_session?authSource=admin"
+      // host: 'ohio-data-repo.acurerate.com',
+      // user: 'acurerate_admin',
+      // password: 'goAcurerateMongodb1234',
+      // database: 'electron_release_server_session',
+      // authdb: 'admin'
+  },
 
   /***************************************************************************
   *                                                                          *
