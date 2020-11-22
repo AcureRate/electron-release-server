@@ -74,10 +74,11 @@ module.exports = {
     // Generate using: https://www.grc.com/passwords.htm
     secret: 'fdatuioq!fdsBBva',
     database: 'electron_release_server_session',
-    host: '10.1.1.114',
-    user: 'acurerate_admin',
-    password: 'goAcurerateMongodb1234',
-    port: 27017
+    // host: '10.1.1.114',
+    // user: 'acurerate_admin',
+    // password: 'goAcurerateMongodb1234',
+    port: 27017,
+    url: "mongodb://ohio-data-repo.acurerate.com:27017/electron_release_server_session?authSource"
   },
 
   files: {
