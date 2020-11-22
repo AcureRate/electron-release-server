@@ -3,7 +3,7 @@
     "modules": {}
   },
   "session":{
-    "url": "mongodb://acurerate_admin:goAcurerateMongodb1234@ohio-data-repo.acurerate.com:27017/electron_release_server_session?authSource"
+    "url": "mongodb://acurerate_admin:goAcurerateMongodb1234@ohio-data-repo.acurerate.com:27017/electron_release_server_session?authSource=admin"
 
   }
 }

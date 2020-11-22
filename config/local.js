@@ -78,7 +78,7 @@ module.exports = {
     // user: 'acurerate_admin',
     // password: 'goAcurerateMongodb1234',
     port: 27017,
-    url: "mongodb://acurerate_admin:goAcurerateMongodb1234@ohio-data-repo.acurerate.com:27017/electron_release_server_session?authSource"
+    url: "mongodb://acurerate_admin:goAcurerateMongodb1234@ohio-data-repo.acurerate.com:27017/electron_release_server_session?authSource=admin"
   },
 
   files: {
