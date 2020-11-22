@@ -58,7 +58,7 @@ module.exports.connections = {
   ***************************************************************************/
   mongodbServer: {
       adapter: 'sails-mongo',
-      url: "mongodb://acurerate_admin:goAcurerateMongodb1234@ohio-data-repo.acurerate.com:27017/electron_release_server_session?authSource=admin"
+      url: "mongodb://acurerate_admin:goAcurerateMongodb1234@ohio-data-repo.acurerate.com:27017/electron_release_server?authSource=admin"
       // host: 'ohio-data-repo.acurerate.com',
       // user: 'acurerate_admin',
       // password: 'goAcurerateMongodb1234',

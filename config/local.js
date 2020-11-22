@@ -100,13 +100,13 @@ module.exports = {
 
  ssl: {
      //ca: require('fs').readFileSync('/home/ubuntu/acurerate/outpost/ssl/domains/key.ca'),
-     key: require('fs').readFileSync('/home/ubuntu/acurerate/outpost/ssl/domains/key.pem'),
-     cert: require('fs').readFileSync('/home/ubuntu/acurerate/outpost/ssl/domains/key.pub'),
-     phrase: require('fs').readFileSync('/home/ubuntu/acurerate/outpost/ssl/domains/key.phrase')
+     // key: require('fs').readFileSync('/home/ubuntu/acurerate/outpost/ssl/domains/key.pem'),
+     // cert: require('fs').readFileSync('/home/ubuntu/acurerate/outpost/ssl/domains/key.pub'),
+     // phrase: require('fs').readFileSync('/home/ubuntu/acurerate/outpost/ssl/domains/key.phrase')
      //for local dev (Maman)
-     // key: require('fs').readFileSync("/Users/matan-co/workspace/external-api-nodejs/ssl/domains/localhost.referral-ai.com/key.pem"),
-     // cert: require('fs').readFileSync('/Users/matan-co/workspace/external-api-nodejs/ssl/domains/localhost.referral-ai.com/server.crt'),
-     // phrase: require('fs').readFileSync('/Users/matan-co/workspace/external-api-nodejs/ssl/domains/localhost.referral-ai.com/passphrase')
+     key: require('fs').readFileSync("/Users/matan-co/workspace/external-api-nodejs/ssl/domains/localhost.referral-ai.com/key.pem"),
+     cert: require('fs').readFileSync('/Users/matan-co/workspace/external-api-nodejs/ssl/domains/localhost.referral-ai.com/server.crt'),
+     phrase: require('fs').readFileSync('/Users/matan-co/workspace/external-api-nodejs/ssl/domains/localhost.referral-ai.com/passphrase')
    },
 
   /***************************************************************************
